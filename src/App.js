@@ -4,7 +4,7 @@ import {BarChart, Bar, XAxis} from "recharts"
 
 function App() {
 
-  const data = [
+ const data = [
     {
       "day": "mon",
       "amount": 17.45
@@ -41,7 +41,12 @@ function App() {
             <p>My Balance</p>
             <h3>$921.48</h3>
         </div>
-        <div></div>
+        <div className='circle-container'>
+          <div className='brown-circle'>
+          <div className='white-circle'></div>
+          </div>
+          
+        </div>
       </div>
       <div className="main-bar">
         <h2>Spending - Last 7 Days</h2>

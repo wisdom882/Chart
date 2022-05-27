@@ -12,7 +12,7 @@ body{
   border-radius: 20px;
   margin: auto;
   margin-top: 10%;
-  flex-direction: column;
+  flex-direction: row;
 }
 p, h3{ 
   margin-left: 5%;
@@ -56,3 +56,30 @@ p, h3{
   margin-top: 6%
 }
 
+.circle-container{
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.brown-circle{
+  background-color: hsl(25, 47%, 15%);
+  border-radius: 50%;
+  border: 2px solid hsl(25, 47%, 15%);
+  height: 35%;
+  width: 35%;
+  margin: auto;
+ 
+}
+.white-circle{
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  height: 95%;
+  width: 95%;
+  margin-left: 55%;
+ 
+}
+
+.balance{
+  width: 80%;
+}
